@@ -1,0 +1,177 @@
+* {
+  font-family: "Kodchasan", sans-serif;
+  background: #EFEEF3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efeef3;
+  padding: 10px 10px;
+  width: 100%;
+  font-family: "Kodchasan", sans-serif;
+  align-items: center;
+  gap: 100px;
+  position: fixed;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+header img {
+  width: 155.35px;
+  height: 48px;
+  top: 2px;
+  left: 14px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul li {
+  margin: 0 10px;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  header img {
+    width: 40vw;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  header ul li {
+    margin: 10px;
+  }
+}
+main .background img {
+  width: 100%;
+}
+main .um {
+  padding-top: 30px;
+  padding-left: 6%;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+main .um img1 {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 355;
+  left: 139px;
+  top: 359px;
+  border-radius: 20px;
+}
+main .um .text1 {
+  flex: 1;
+}
+main .um .text1 h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+}
+main .um .text1 p {
+  width: 100%;
+  height: 203px;
+  top: 472px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: center;
+}
+main .dois {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  width: 100%;
+}
+main .dois .text2 {
+  font-family: "Kodchasan", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  max-width: 500px;
+}
+main .dois .img2 {
+  width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+}
+main .dois .img2 ul {
+  display: flex;
+  width: 493px;
+  height: 78px;
+  font-size: 30px;
+  text-align: left;
+  list-style: none;
+  gap: 80px;
+}
+main .dois .img2 img {
+  width: 81.26px;
+  height: 200px;
+}
+
+@media (max-width: 500px) {
+  main {
+    font-family: "Kodchasan", sans-serif;
+    font-size: 1.5rem;
+    background-color: #efeef3;
+  }
+  main .background {
+    width: 0;
+  }
+  main .um {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main .um .img1 {
+    display: flex;
+    border-radius: 20px 0px 0px 0px;
+  }
+  main .um .text1 {
+    height: 10000px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .um .text1 h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  main .um .text1 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .dois {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .dois .text2 p {
+    width: 350px;
+  }
+  .dois .img2 {
+    display: flex;
+    width: 100%;
+  }
+  .dois .img2 ul li {
+    display: flex;
+    list-style: none;
+  }
+}/*# sourceMappingURL=style.css.map */
